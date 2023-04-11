@@ -14,4 +14,4 @@ COPY . ${APP_HOME}
 RUN npm ci
 
 # run server
-CMD ["ng", "serve"]
+CMD ["ng", "serve", "--host", "0.0.0.0"]

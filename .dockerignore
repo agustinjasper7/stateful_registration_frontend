@@ -1,2 +1,4 @@
-# node modules
+# project files
+.vscode
+.angular
 node_modules
